@@ -1,4 +1,4 @@
-package GeneralType;
+package InheritSample;
 
 /**
  * Created by Sven Wong on 2018/2/1.
