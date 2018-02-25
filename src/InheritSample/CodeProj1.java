@@ -1,7 +1,10 @@
 package InheritSample;
 
+import java.io.BufferedWriter;
+import java.io.FileWriter;
+import java.util.ArrayList;
 import java.util.Scanner;
-
+import java.io.IOException;
 /**
  * Created by Sven Wong on 2018/2/1.
  */
@@ -10,20 +13,11 @@ public class CodeProj1 {
     public static void main(String[] args){
         Scanner in = new Scanner(System.in);
         int n = in.nextInt();
-        /*int[] arr = new int[4];
-        for(int i=0;i<4;i++){
-            arr[i] = in.nextInt();
-        }
-        Teacher teacher = new Teacher(arr[0],arr[1],arr[2],arr[3]);
-        teacher.show();*/
-
-        int[][] arr = new int[n][];
+        ArrayList[][] arr = new ArrayList[n][];
         for(int i=0;i<n;i++){
-            int ch = in.nextInt();
-            arr[0][0] = ch;
-            for(;ch!='\n';){
-                
-            }
+            do{
+                arr[i].
+            }while(true);
         }
     }
 }
